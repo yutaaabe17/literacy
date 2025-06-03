@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table {
+            border-collapse: collapse; /* 隣接するセルのボーダーを重ねて表示 */
+            width: 50%; /* 表の幅を50%に設定 */
+            margin: 20px 0; /* 上下に20pxのマージン */
+            border-top: 1px solid black; /* 表の上端の線 */
+            border-bottom: 1px solid black; /* 表の下端の線 */
+        }
+        th, td {
+            /* border: 1px solid black; */ /* 各セルごとのボーダーは削除 */
+            padding: 8px; /* セル内の余白 */
+            text-align: center; /* テキストを中央揃えに */
+        }
+        th {
+            background-color: #f2f2f2; /* 見出しセルの背景色 */
+            border-bottom: 1px solid black; /* 見出しとデータの間の線 */
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>商品ID</th>
+                <th>商品名</th>
+                <th>価格（円）</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>リンゴ</td>
+                <td>150</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>バナナ</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>オレンジ</td>
+                <td>120</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
