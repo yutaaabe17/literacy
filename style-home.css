@@ -1,0 +1,42 @@
+/* カラーテーマの定義 */
+:root {
+    --primary-color: #FF9800;   /* 鮮やかなオレンジ */
+    --secondary-color: #673AB7; /* 深みのあるパープル */
+    --accent-color: #FFC107;    /* 明るいゴールド/イエロー */
+    --background-color: #212121;/* 暗めのグレー */
+    --text-color: #EEEEEE;      /* 明るいグレー */
+}
+
+body {
+    font-family: sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: var(--primary-color); /* メインカラーを使用 */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: var(--secondary-color); /* サブカラーを使用 */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+p {
+    color: var(--text-color); /* 基本の文字色 */
+    margin-bottom: 15px;
+}
+
+.accent-text {
+    color: var(--accent-color); /* アクセントカラーを使用 */
+    font-weight: bold;
+}
